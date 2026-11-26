@@ -1,0 +1,15 @@
+ winget install --id Git.Git -e --source winget
+git config user.name
+git config --list
+Dentro da pasta do projeto
+git init
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+
+Gerar chave SSH => https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+ssh-keygen -t ed25519 -C "your_email@example.com"
+c/Users/user/.ssh/id_ed25519.pub
+Entra no github Configuração e Cadastrar chave SSH
+
+git init
+git add .
